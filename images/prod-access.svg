@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="362.098" height="423.486" viewBox="0 0 362.098 423.486">
+  <defs>
+    <filter id="Rectangle_110" x="0" y="0" width="362.098" height="423.486" filterUnits="userSpaceOnUse">
+      <feOffset dx="5" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_121" data-name="Group 121" transform="translate(-18551.5 -9051.014)">
+    <g transform="matrix(1, 0, 0, 1, 18551.5, 9051.01)" filter="url(#Rectangle_110)">
+      <g id="Rectangle_110-2" data-name="Rectangle 110" transform="translate(32.5 27.5)" fill="#fff" stroke="rgba(201,201,201,0.64)" stroke-width="1">
+        <rect width="287.097" height="348.486" rx="10" stroke="none"/>
+        <rect x="0.5" y="0.5" width="286.097" height="347.486" rx="9.5" fill="none"/>
+      </g>
+    </g>
+    <g id="ios-share-alt" transform="translate(18611.693 9096.977)">
+      <path id="Path_201" data-name="Path 201" d="M80.037,101.646,74.1,96.094a.3.3,0,0,0-.236-.1c-.185.008-.421.139-.421.337v2.785a.18.18,0,0,1-.151.172c-5.9.9-8.387,5.321-9.266,9.906-.034.181.21.349.324.206a10.727,10.727,0,0,1,8.917-4.518.208.208,0,0,1,.177.2v2.734a.361.361,0,0,0,.61.223l5.977-5.649a.464.464,0,0,0,.147-.353A.564.564,0,0,0,80.037,101.646Z" transform="translate(-64.025 -95.992)" fill="#3783dc" stroke="rgba(201,201,201,0.64)" stroke-width="1"/>
+    </g>
+    <g id="ios-trash" transform="translate(18613.078 9389.126)">
+      <path id="Path_203" data-name="Path 203" d="M118.758,67.211,119.942,81.8a1.469,1.469,0,0,0,1.47,1.47h7.074a1.469,1.469,0,0,0,1.47-1.47l1.169-14.585Zm3.091,13.3-.336-11.69h.928l.346,11.69Zm3.527,0h-.9V68.816h.9Zm2.624,0h-.933l.341-11.69h.928Zm2.343-15.1h-1.806l-1.319-1.154a1.017,1.017,0,0,0-.662-.251H123.3a1.033,1.033,0,0,0-.672.251L121.311,65.4h-1.806c-.883,0-1.505.421-1.505,1.3h13.847C131.847,65.826,131.225,65.4,130.342,65.4Z" transform="translate(-118 -64)" fill="#3783dc"/>
+    </g>
+    <g id="ic_file_download_48px" transform="translate(18612.156 9353.61)">
+      <path id="Path_202" data-name="Path 202" d="M23.847,11.935H19.891V6H13.956v5.935H10l6.924,6.924ZM10,20.836v1.978H23.847V20.836Z" transform="translate(-10 -6)" fill="#3783dc"/>
+    </g>
+    <g id="ios-paper" transform="translate(18611.693 9129.286)">
+      <path id="Path_250" data-name="Path 250" d="M50.951,49.243v12.5a.544.544,0,1,1-1.087,0V50.485h-.621A1.241,1.241,0,0,0,48,51.728V62.912a1.241,1.241,0,0,0,1.243,1.243H62.955a1.2,1.2,0,0,0,1.2-1.2V49.243A1.241,1.241,0,0,0,62.912,48l-10.8.078A1.113,1.113,0,0,0,50.951,49.243Zm2.563,1.243h3.262a.544.544,0,0,1,0,1.087H53.514a.544.544,0,0,1,0-1.087Zm0,6.213h5.747a.544.544,0,1,1,0,1.087H53.514a.544.544,0,0,1,0-1.087Zm7.611,4.194H53.514a.544.544,0,0,1,0-1.087h7.611a.544.544,0,1,1,0,1.087Zm0-6.213H53.514a.544.544,0,0,1,0-1.087h7.611a.544.544,0,1,1,0,1.087Z" transform="translate(-48 -48)" fill="#3783dc"/>
+    </g>
+    <g id="ic_move_to_inbox_48px" transform="translate(18611.693 9163.904)">
+      <path id="Path_251" data-name="Path 251" d="M20.36,6H7.786A1.779,1.779,0,0,0,6.009,7.795L6,20.36a1.787,1.787,0,0,0,1.786,1.8H20.36a1.8,1.8,0,0,0,1.8-1.8V7.795A1.8,1.8,0,0,0,20.36,6Zm0,10.77H16.77a2.692,2.692,0,1,1-5.385,0h-3.6V7.795H20.36Zm-2.692-4.487H15.872V9.59h-3.59v2.692H10.487l3.59,3.59.65-.65Z" transform="translate(-6 -6)" fill="#3783dc"/>
+    </g>
+    <g id="md-star" transform="translate(18611.693 9198.522)">
+      <path id="Path_252" data-name="Path 252" d="M62.077,76.344l4.992,3.012-1.32-5.681,4.406-3.82-5.809-.5L62.077,64l-2.269,5.356-5.808.5,4.406,3.82-1.321,5.681Z" transform="translate(-54 -64)" fill="#3783dc"/>
+    </g>
+    <g id="pencil" transform="translate(18611.693 9232.679)">
+      <path id="Path_253" data-name="Path 253" d="M16.571,3.084,14.965,1.477a2.253,2.253,0,0,0-3.066,0l-9.93,9.93c-.073.073-.073.146-.146.219v.146l-.73,4.381c-.073.219.073.438.219.657a.441.441,0,0,0,.438.219H1.9l4.381-.73h.146c.073,0,.146-.073.219-.146l9.93-10A2.117,2.117,0,0,0,16.571,3.084ZM12.7,7.975,10.073,5.347l1.679-1.679L14.381,6.3Z" transform="translate(-1.073 -0.875)" fill="#3783dc"/>
+    </g>
+    <g id="md-locate" transform="translate(18611.693 9267.296)">
+      <path id="Icon" d="M40.077,37.193a2.885,2.885,0,1,0,2.885,2.885A2.893,2.893,0,0,0,40.077,37.193Zm6.885,2.116a6.95,6.95,0,0,0-6.116-6.116V32H39.308v1.192a6.95,6.95,0,0,0-6.116,6.116H32v1.539h1.192a6.95,6.95,0,0,0,6.116,6.116v1.192h1.539V46.963a6.95,6.95,0,0,0,6.116-6.116h1.192V39.308Zm-6.885,6.154a5.385,5.385,0,1,1,5.385-5.385A5.4,5.4,0,0,1,40.077,45.462Z" transform="translate(-32 -32)" fill="#3783dc"/>
+    </g>
+    <g id="activity" transform="translate(18611.693 9301.914)">
+      <path id="Path_254" data-name="Path 254" d="M18.155,10.27H14.924L12.5,17.539,7.654,3,5.231,10.27H2" transform="translate(-2 -3)" fill="none" stroke="#3783dc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <line id="Line_24" data-name="Line 24" x2="287.097" transform="translate(18584.23 9334.917)" fill="none" stroke="rgba(201,201,201,0.64)" stroke-width="1" opacity="0.271"/>
+    <text id="Share" transform="translate(18648.619 9107.592)" fill="#5f5f5f" font-size="13" font-family="BentonSans-Regular, Benton Sans"><tspan x="0" y="0">Share</tspan></text>
+    <text id="Manage_Smart_Contract" data-name="Manage Smart Contract" transform="translate(18648.619 9140.825)" fill="#5f5f5f" font-size="13" font-family="BentonSans-Regular, Benton Sans"><tspan x="0" y="0">Manage Smart Contract</tspan></text>
+    <text id="Move_To" data-name="Move To" transform="translate(18648.619 9178.212)" fill="#5f5f5f" font-size="13" font-family="BentonSans-Regular, Benton Sans"><tspan x="0" y="0">Move To</tspan></text>
+    <text id="Add_to_Starred" data-name="Add to Starred" transform="translate(18648.619 9210.522)" fill="#5f5f5f" font-size="13" font-family="BentonSans-Regular, Benton Sans"><tspan x="0" y="0">Add to Starred</tspan></text>
+    <text id="Rename" transform="translate(18648.619 9244.679)" fill="#5f5f5f" font-size="13" font-family="BentonSans-Regular, Benton Sans"><tspan x="0" y="0">Rename</tspan></text>
+    <text id="Locate" transform="translate(18648.619 9278.835)" fill="#5f5f5f" font-size="13" font-family="BentonSans-Regular, Benton Sans"><tspan x="0" y="0">Locate</tspan></text>
+    <text id="View_Activity" data-name="View Activity" transform="translate(18648.619 9314.376)" fill="#5f5f5f" font-size="13" font-family="BentonSans-Regular, Benton Sans"><tspan x="0" y="0">View Activity</tspan></text>
+    <text id="Download" transform="translate(18648.619 9364.226)" fill="#5f5f5f" font-size="13" font-family="BentonSans-Regular, Benton Sans"><tspan x="0" y="0">Download</tspan></text>
+    <text id="Delete" transform="translate(18648.619 9401.612)" fill="#5f5f5f" font-size="13" font-family="BentonSans-Regular, Benton Sans"><tspan x="0" y="0">Delete</tspan></text>
+  </g>
+</svg>

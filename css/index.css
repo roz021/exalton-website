@@ -1,0 +1,249 @@
+@font-face{
+    font-family: europa-bold;
+    src: url(../fonts/europa-bold.ttf);
+}
+
+@font-face{
+    font-family: europa-reg;
+    src: url(../fonts/europa-reg.ttf)
+}
+
+@font-face{
+    font-family: europa-light;
+    src: url(../fonts/europa-light.ttf)
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+:root{
+    --blue-4: #00233F;
+    --blue-3: #045699;
+    --blue-2: #3783DC;
+    --blue-1: #82B8F9;
+    --orange-2: #EF9300;
+    --orange-1: #FFAC1A;
+    --off-white: #F0F3F9;
+    --off-black: #2F2F2F;
+    --input-gray: #8E8E8E;
+}
+
+html, body{
+    font-family: europa-reg;
+    background-image: linear-gradient(var(--blue-4), var(--blue-3), var(--blue-2));
+    height: 100%;
+    letter-spacing: 0.08em;
+}
+
+h1, h2, .footer-links, #cont-button {
+    font-family: europa-bold, sans-serif;
+    color: var(--off-white);
+}
+
+#sub-button{
+    font-family: europa-reg, sans-serif;
+    color: var(--off-white);
+    letter-spacing: 1px;
+    
+}
+
+input::placeholder{
+    font-family: europa-light, sans-serif;
+    color: var(--input-gray);
+    font-size: 1.5vw;
+}
+
+h4{
+    font-family: europa-light, sans-serif;
+    color: var(--off-white);
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+h1{
+    font-size: 4vw;
+    text-align: center;
+}
+
+/*nav*/
+
+nav{
+    font-family: europa-reg, sans-serif;
+    margin: auto;
+    padding-top: 2%;
+    line-height: 50px;
+    width: 70%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.nav-icon{
+    width: 5%;
+    height: auto;
+}
+
+a:link{
+    text-decoration: none;
+    color: var(--off-white);
+    font-size: 1.3vw;
+    letter-spacing: .1em;
+}
+
+
+/*content*/
+
+.hero{
+    height: 30em;
+    position: relative;
+}
+
+.center-wrap{
+    margin: 0 auto;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    width: 70%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.broken-logo{
+    position: relative;
+    margin-top: -15%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%; 
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+#top{
+    margin-top: 35%;
+    margin-left: 18%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 65%;
+    height: auto;
+    z-index: 1;
+
+}
+
+#left{
+    margin-left: 40%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    width: 60%;
+}
+
+#right{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    width: 50%;
+}
+
+#hey{
+    position: absolute;
+    top: 20%;
+    left: -10%;
+    transform: rotate(-30deg);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#there{
+    position: absolute;
+    top: 18%;
+    right: -12%;
+    transform: rotate(20deg);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#pricing{
+    margin-top: 7%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#subtext{
+    margin-top: -5%;
+}
+.center-wrap h4{
+    padding-top: 3%;
+}
+
+.form-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.center-wrap form{
+    padding-top: 5%;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+
+.center-wrap #email-field{
+    padding: 15px 0 15px 18px;
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 75%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgba(21, 53, 77, 0.6);
+    border: none;
+}
+
+.center-wrap #sub-button{
+    background-color: var(--blue-1);
+    padding: 0px 50px;
+    font-size: 1.5vw;
+    margin-top: 2%;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 5vh;
+}
+
+/*footer*/
+
+footer{
+    position: absolute;
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 90px;
+}
+
+footer:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -65px;
+    height: 200px;
+    border-radius: 50%;
+    transform: scale(1.2);
+    background-color: white;
+}
