@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="281" height="281" viewBox="0 0 281 281">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.224" y1="0.769" x2="1.018" y2="0.769" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc47d"/>
+      <stop offset="1" stop-color="#d17c00"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-0.051" y1="0.573" x2="0.743" y2="0.573" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#789fff"/>
+      <stop offset="1" stop-color="#2355b7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-0.127" y1="0.198" x2="1.187" y2="0.198" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#789fff"/>
+      <stop offset="1" stop-color="#0c3577"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.108" y1="0.429" x2="1.108" y2="0.429" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e6e6e6"/>
+      <stop offset="1" stop-color="#b3b3b3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="-0.075" y1="0.412" x2="0.588" y2="0.412" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b6deff"/>
+      <stop offset="1" stop-color="#789fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="1.584" y1="-1.569" x2="1.607" y2="1.546" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_262" data-name="Group 262" transform="translate(-284.5 -4241.5)">
+    <g id="Ellipse_286" data-name="Ellipse 286" transform="translate(284.5 4241.5)" fill="#fff" stroke="#ffac1a" stroke-width="3">
+      <circle cx="140.5" cy="140.5" r="140.5" stroke="none"/>
+      <circle cx="140.5" cy="140.5" r="139" fill="none"/>
+    </g>
+    <g id="Group_225" data-name="Group 225" transform="translate(325.747 4291.771)">
+      <g id="Group_223" data-name="Group 223" transform="translate(0 0)">
+        <path id="Path_885" data-name="Path 885" d="M513.794,452.487l-23.431,51.842a38.582,38.582,0,0,0,19.268,51.047h0a38.581,38.581,0,0,0,51.047-19.267l23.431-51.842Z" transform="translate(-486.929 -378.243)" fill="url(#linear-gradient)"/>
+        <path id="Path_886" data-name="Path 886" d="M568.209,301.263l23.431-51.842a38.581,38.581,0,0,1,51.047-19.267h0A38.581,38.581,0,0,1,661.954,281.2l-23.431,51.842Z" transform="translate(-541.48 -226.72)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <g id="Group_224" data-name="Group 224" transform="translate(114.735 16.898)">
+        <path id="Path_887" data-name="Path 887" d="M972.545,524s-20.571,11.422-19.914,16.555a33.733,33.733,0,0,1,.477,6.6l7.9,5.593Z" transform="translate(-914.21 -443.136)" fill="url(#linear-gradient-3)"/>
+        <path id="Rectangle_180" data-name="Rectangle 180" d="M0,0H27.558a0,0,0,0,1,0,0V127.247a14.371,14.371,0,0,1-14.371,14.371h0A13.187,13.187,0,0,1,0,128.43V0A0,0,0,0,1,0,0Z" transform="translate(9.53 23.266) rotate(-19.985)" opacity="0.51" fill="url(#linear-gradient-4)"/>
+        <path id="Path_888" data-name="Path 888" d="M973.55,524s-8.96,4.129-10.295,7.977-4.418,12.042-6.552,14.235-2.59.942-2.59.942L970.4,588.737a7.167,7.167,0,0,0,1.849,2.7c2.252,2.045,7.126,5.612,12.253,3.878,7.014-2.372,10.848-7.349,9.848-14.131S973.55,524,973.55,524Z" transform="translate(-915.215 -443.136)" fill="url(#linear-gradient-5)"/>
+        <ellipse id="Ellipse_283" data-name="Ellipse 283" cx="19.291" cy="6.365" rx="19.291" ry="6.365" transform="translate(1.088 16.177) rotate(-19.985)" fill="#999"/>
+        <rect id="Rectangle_181" data-name="Rectangle 181" width="38.581" height="3.182" transform="translate(2.175 19.168) rotate(-19.985)" fill="#999"/>
+        <ellipse id="Ellipse_284" data-name="Ellipse 284" cx="19.291" cy="6.365" rx="19.291" ry="6.365" transform="translate(0 13.186) rotate(-19.985)" fill="#ccc"/>
+        <ellipse id="Ellipse_285" data-name="Ellipse 285" cx="13.499" cy="4.454" rx="13.499" ry="4.454" transform="translate(6.096 13.003) rotate(-19.985)" fill="url(#linear-gradient-6)"/>
+      </g>
+    </g>
+  </g>
+</svg>
