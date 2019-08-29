@@ -129,7 +129,7 @@ a:link{
 }
 
 .teamMessage{
-    height: 70%;
+    height: 100%;
     text-align: center
 }
 
@@ -191,6 +191,19 @@ a:link{
     font-family: europa-reg;
     font-size: 150%;
     color: #fff;
+}
+
+.advisorBody {
+    height: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.advisorTitleMessage {
+    font-family: europa-reg;
+    height: 20%;
+    color: #045699;
+    font-size: 4vw;
 }
 
 .center-wrap{
