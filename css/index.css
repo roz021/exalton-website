@@ -36,7 +36,7 @@
 
 html, body{
     font-family: europa-reg;
-    background-image: linear-gradient(var(--blue-4), var(--blue-3), var(--blue-2));
+    background-image: linear-gradient(var(--blue-4), var(--blue-4), var(--blue-3), var(--blue-2));
     height: 110%;
     letter-spacing: 0.08em;
 }
