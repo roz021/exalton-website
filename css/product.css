@@ -86,11 +86,13 @@ h1{
 }
 
 /*nav*/
+
 nav{
     font-family: europa-reg, sans-serif;
     margin: auto;
     padding-top: 2%;
     line-height: 50px;
+    background-color: #FFAC1A;
     width: 70%;
     display: flex;
     flex-wrap: nowrap;
@@ -109,101 +111,31 @@ a:link{
     letter-spacing: .1em;
 }
 
+
 /*content*/
-.hero{
-    height: 60%;
-    /* position: relative; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.dreamMessage{
-    height: 70%;
-    /* position: relative; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-}
-
-.teamMessage{
-    height: 100%;
-    text-align: center
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.column {
-  flex-basis: 100%;
-}
-
-@media screen and (min-width: 800px) {
-  .column {
-    flex: 1;
-  }
-}
-
-/* George: For the first part of the screen */
-.messageBody {
+.productMainTitle {
     font-family: europa-reg;
-    height: 70%;
-    color: #fff;
-}
-.mainMessage {
-    font-family: europa-reg;
-    height: 55%;
-    color: #fff;
-    font-size: 5.0vw;
-}
-.miniMessage {
-    font-family: europa-reg;
-    height: 30%;
-    color: #fff;
-    font-size: 1.5vw;
-}
-.mainDreamMessage {
-    font-family: europa-reg;
-    height: 30%;
-    color: #045699;
-    font-size: 2.5vw;
-}
-.miniDreamMessage {
-    font-family: europa-reg;
-    height: 20%;
-    color: #000;
-    font-size: 1vw;
-}
-
-.teamTitleMessage {
-    font-family: europa-reg;
-    height: 15%;
-    color: #fff;
-    font-size: 4vw;
-}
-
-.contentTitle {
-    font-family: europa-reg;
-    font-size: 150%;
-    color: #fff;
-}
-
-.advisorBody {
-    height: 100%;
+    height: 25%;
+    font-size: 4.5vw;
     text-align: center;
-    background-color: white;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.advisorTitleMessage {
+.productSubTitle {
     font-family: europa-reg;
-    height: 20%;
-    color: #045699;
-    font-size: 4vw;
+    height: 5%;
+    font-size: 1.5vw;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.productMainMessage{
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFAC1A;
+    color: white;
 }
 
 .center-wrap{
@@ -225,17 +157,6 @@ a:link{
     grid-template-rows: 25% 25% 25% 25%;
 }
 
-/* First Page */
-#bigMessage{
-    margin-left: 35%;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    align-self: center;
-    justify-self: center;
-}
-
 #top{
     justify-self: center;
     grid-column-start: 2;
@@ -244,6 +165,7 @@ a:link{
     grid-row-end: 3;
     width: 50%;
     z-index: 1;
+
 }
 
 #left{
@@ -302,11 +224,9 @@ a:link{
     padding-top: 3%;
 }
 
-.active-page {
-    color: #fff;
-}
 
-.form-container{
+
+ .form-container{
    margin-top: 5%;
    display: flex;
    align-items: center;
@@ -394,6 +314,7 @@ footer{
 
 #cont-button{
     margin-top: 3%;
+
     background-color: var(--orange-1);
     line-height: 2.5vw;
     font-family: europa-reg, sans-serif;
