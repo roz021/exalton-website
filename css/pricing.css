@@ -122,12 +122,6 @@ a:link{
 }
 
 .center-wrap{
-    /* margin: 0 auto;
-    position: absolute;
-    left: 50%;
-    width: 70%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)  */
     margin: 0;
     margin-top: -10%;
 }
