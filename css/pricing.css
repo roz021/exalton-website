@@ -85,29 +85,48 @@ h1{
     text-align: center;
 }
 
-/*nav*/
 
+a:visited {color: var(--off-white)}
+
+/*nav*/
 nav{
     font-family: europa-reg, sans-serif;
     margin: auto;
     padding-top: 2%;
     line-height: 50px;
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    text-align: center;
 }
 
 .nav-icon{
-    width: 5%;
+    width: 3vw;
     height: auto;
+    display: inline;
 }
 
-a:link{
+
+nav a:link, footer a:link{
     text-decoration: none;
     color: var(--off-white);
     font-size: 1.3vw;
     letter-spacing: .1em;
+}
+
+footer h3{
+        font-family: europa-light, sans-serif;
+        color: var(--off-white);
+        font-size: 1.5vw;
+        letter-spacing: 1px;
+}
+
+footer h2{
+    font-family: europa-reg, sans-serif;
+    color: var(--off-white);
+    font-size: 1.5vw;
+    letter-spacing: 2px;
 }
 
 
