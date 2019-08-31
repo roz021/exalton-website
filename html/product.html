@@ -10,49 +10,203 @@
 </head>
 
 <body>
-    <nav>
-        <a href="about.html" style="color: white">About</a>
-        <a href="product.html" style="color: white">Product</a>
-        <img class="nav-icon" src="../images/logo.svg" alt="logo">
-        <a href="pricing.html" style="color: white">Pricing</a>
-        <a href="contact.html" style="color: white">Contact</a>
-    </nav>
-    
-    <div class="productMainMessage">
-        <div class="productMainTitle">
-            <div>
-                <br>
-               <br>
-               The most seamless and secure <br>
-               way to <font color="#045699"><b>collaborate.</b></font>
+    <div class="bg-nav">
+        <nav>
+            <a id="link" href="about.html">About</a>
+            <a id="link" href="product.html">Product</a>
+            <a href="../index.html">
+                <img class="nav-icon" src="../images/logo.svg" alt="logo">
+            </a>
+            <a id="link" href="pricing.html">Pricing</a>
+            <a id="link" href="contact.html">Contact</a>
+        </nav>
+    </div>
+
+    <div class="hero">
+        <div class="hero-wrapper">
+                <h1 id="white">The most seamless and secure<br>way to <font color="#0080FF">collaborate</font></h1>
+                <h3 id="white">Exalton is dedicated to providing you with the tools you need to collaborate with anyone,<br>
+                                anywhere, without clunky workflows or security concerns.</h3>
+            <div class="form-container">
+                <form>
+                    <input type="text" id="email-field" placeholder="Your email address">
+                    <button type="submit" id="sub-button">Subscribe</button>
+                </form>
+
+                <img id="head-mock" src="../images/prod-mock.png">
             </div>
         </div>
-        <div class="productSubTitle">
-            Exalton is dedicated to providing you with the tools you need to collaborate wiht anyone. <br> anywhere, without clunky workflows or security concerns. 
-        </div>
-        <form style="text-align: center">
-            <input type="text"  id="email-field" placeholder="Your email address">
-            <button type="submit" id="sub-button">Subscribe</button>
-        </form>
     </div>
-    
+
+    <div class="content-wrapper">
+
+        <div class="workspace">
+            <div class="workspace-left">
+            <h5 id="blue">Workspaces and channels</h5>
+            <h2 id="black">Align your teams in<br>a smarter way.</h2>
+            <div class="bar-light"></div>
+            <h3 id="black">Exalton's applicaton helps you organize your files into workspaces<br>
+                           and channels. You can also create custom tags and filters to simplify<br>
+                           file navigation and querying.</h3>
+        </div>
+            <div class="workspace-right">
+                <img id="workspace-graphic" src="../images/prod-workspace.svg">
+            </div>
+        </div>
+
+        <div class="access">
+            <div class="access-left">
+                <img id="access-graphic" src="../images/prod-access.svg">
+            </div>
+            <div class="access-right">
+                <h5 id="blue">Access Hierarchy</h5>
+                <h2 id="black">Automate access to files<br>
+                               for better engagement.</h2>
+                <div class="bar-dark right"></div>
+                <h3 id="black">Within our application, you can maintain project oversight by defining<br>
+                               roles into admins, team leads, team members, and guests. In doing so,<br>
+                               you'll be able to elect user roles in the network to more effectively<br>
+                               engage with your files.</h3>
+            </div>
+        </div>
+
+        <div class="onoff">
+            <div class="onoff-left">
+                <h5 id="orange">Online & offline control</h5>
+                <h2 id="black">Maintain total control<br>
+                               over files at all times.</h2>
+                <div class="o-bar-dark"></div>
+                <h3 id="black">Exalton is capable of logging and enforcing activities regardless of<br>
+                               whether files are developed inside or outside the application. This<br>
+                               allows you to closely monitor and actively enforce any user's<br>
+                               permissions by leveraging embedded solutions into each user's work<br>
+                               environment.</h3>
+            </div>
+
+            <div class="onoff-right">
+                <img id="onoff-graphic" src="../images/prod-onoff.svg">
+            </div>
+        </div>
+
+        <div class="share-bg">
+            <div class="share">
+                <img id="share-graphic" src="../images/prod-share.svg">
+                <h5 id="orange">Sharing parameters</h5>
+                <h2 id="white">Share your files however you want.</h2>
+                <div class="o-bar-light sm"></div>
+                <h3 id="white">When sharing your file with others, you can specify an assortment of
+                               sharing parameters. <br>By leveraging smart contracts, these sharing
+                               parameters can <br>automatically execute actions to authorize, manage,
+                               and terminate <br>a teammate's access to files.</h3>
+            </div>
+        </div>
+
+        <div class="endorse">
+            <div class="endorse-left">
+                <img id="endorse-graphic" src="../images/prod-endorse.svg">
+            </div>
+
+            <div class="endorse-right">
+                <h5 id="orange">File endorsements</h5>
+                <h2 id="black">Ensure approvals for<br>
+                               sharing sensitive files.</h2>
+                <div class="o-bar-dark right"></div>
+                <h3 id="black">Exalton's ledger enforces a permissioned consensus. Our<br>
+                               notification and reporting system notifies network administers<br>
+                               to authorize updates and to train the ledger orderers.<br>
+                                Additionally, because the ledger system expands to offline<br>
+                                monitoring, assets can safely be transacted across disparate<br>
+                                development and continue to maintain an immutable record.</h3>
+            </div>
+        </div>
+
+        <div class="audit">
+            <div class="audit-left">
+                <h5 id="orange">Auditable file history</h5>
+                <h2 id="black">Check what your file has been up to.</h2>
+                <div class="o-bar-light"></div>
+                <h3 id="black">Exalton expedites enterprise auditing and analytics to facilitate<br>
+                               transparency and trust throughout a project's lifecycle. You'll be able<br>
+                               to easily access activity reports through a permissioned, immutable,<br>
+                               and distributed ledger.</h3>
+            </div>
+
+            <div class="audit-right">
+                <img id="audit-graphic" src="../images/prod-act.svg">
+            </div>
+        </div>
+
+        <div class="auto">
+            <div class="auto-left">
+                <img id="auto-graphic" src="../images/prod-robot.svg">
+            </div>
+
+            <div class="auto-right">
+                <h5 id="orange">Automated file delivery</h5>
+                <h2 id="black">Spend more time doing work, and<br>
+                               less tiem worrying about logistics.</h2>
+                <div class="o-bar-light right"></div>
+                <h3 id="black">Integrations will enable you to automatically generate<br>
+                               documentation, legal paperwork, and reports for logistical objectives<br>
+                               This means that you and your team spend less time and money on<br>
+                               internal and external efforts for peripheral file logistics.</h3>
+            </div>
+        </div>
+
+        <div class="modular">
+            <div class="modular-left">
+                <h5 id="orange">Modular automation</h2>
+                <h2 id="black">Streamline your workflow by<br>
+                               letting us do the busy work.</h2>
+                <div class="o-bar-dark"></div>
+                <h3 id="black">Using exalton's modular automation view, you can easily coordinate<br>
+                               each step of a file's lifecycle. Automated workflows enable you to<br>
+                               streamline the storage, transfer, and archiving of your files to reduce<br>
+                               the time spent managing assets.</h3>
+            </div>
+
+            <div class="modular-right">
+                <img id="modular-graphic" src="../images/prod-pipeline.svg">
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h1 id="white">Want to learn more?</h1>
+            <h2 id="gray">We'd love to answer any questions you have.</h2>
+
+            <form id="contact">
+                <div class="name">
+                <input type="text" id="half" class="gap" placeholder="First Name">
+                <input type="text" id="half" placeholder="Last Name">
+                </div>
+                <div class="org">
+                <input type="text" id="half" class ="gap" placeholder="Organization">
+                <input type="text" id="half"placeholder="Industry">
+                </div>
+                <input type="text" id="full" placeholder="Email Address">
+                <input type="text" id="large"placeholder="How may we help?">
+                <input class="btn" type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+
 
     <footer>
         <div class="foot-wrapper">
-        <div class="logo">
-            <img class="foot-icon" src="../images/logo.svg" alt="logo">
-            <h3>exalton</h3>
-        </div>
-        <div class="contact-us">
-            <h2>Have any questions? Get in touch with us!</h2>
-            <button type="button" id="cont-button">Contact Us</button>
-        </div>
-        <div class="footer-links">
-            <a href="about.html">About</a>
-            <a href="product.html">Product</a>
-            <a href="pricing.html">Pricing</a>
-            <a href="contact.html">Contact</a>
-        </div>
+            <div class="logo">
+                <img class="foot-icon" src="../images/logo.svg" alt="logo">
+                <h3>exalton</h3>
+            </div>
+            <div class="contact-us">
+                <h2>Have any questions? Get in touch with us!</h2>
+                <button type="button" id="cont-button">Contact Us</button>
+            </div>
+            <div class="footer-links">
+                <a href="about.html">About</a>
+                <a href="product.html">Product</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="contact.html">Contact</a>
+            </div>
         </div>
     </footer>
 </body>
