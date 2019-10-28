@@ -1,3 +1,20 @@
+<?php
+
+if($_POST["submit"]) {
+    $recipient="royzhang7603@gmail.com";
+    $subject="Form to email message";
+    $sender=$_POST["sender"];
+    $senderEmail=$_POST["senderEmail"];
+    $message=$_POST["message"];
+
+    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,6 +24,8 @@
     <title>exalton</title>
     <link href="css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="/js/index.js"></script>
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
 </head>
 
@@ -19,9 +38,35 @@
         <img class="nav-icon" src="images/logo.svg" alt="logo">
         </a>
         <a id="link" href="html/pricing.html">Pricing</a>
-        <a id="link" href="html/contact.html">Contact</a>
+        <a id="link" class="cont-modal" href="#">Contact</a>
     </nav>
 </div>
+
+<!-- Contact Modal -->
+
+<div class="contact-form">
+    <button type="button" id="contact-close">
+        <img src="/images/close.svg" id="close-icon">
+    </button>
+    <h1 id="white">Want to learn more?</h1>
+    <h2 id="gray">We'd love to answer any questions you have.</h2>
+
+    <form method="post" action="contact.php" id="contact">
+        <div class="name">
+        <input type="text" name="sender" id="half" class="gap" placeholder="First Name">
+        <input type="text" id="half" placeholder="Last Name">
+        </div>
+        <div class="org">
+        <input type="text" id="half" class ="gap" placeholder="Organization">
+        <input type="text" id="half"placeholder="Industry">
+        </div>
+        <input type="text" name="senderEmail" id="full" placeholder="Email Address">
+        <input type="text" name="message" id="large"placeholder="How may we help?">
+        <input class="btn" type="submit" value="Send">
+    </form>
+</div>
+
+<!-- Hero -->
 <div class="bg-1">
     <div class="content-wrapper">
         <div class="landing-hero">
@@ -187,12 +232,23 @@
             <img id="big-logo" src="images/logo.png">
             <h2 id="blue">Do better work, together.</h2>
             <h3 id="black">Stay up to date with what we've been up to.</h3>
-            <div class="form-container">
+
+            <div class="input">
+                <div class="input-container">
+                    <input type="email" class="input-field" placeholder="Enter your email address" />
+                    <div class="input-field-shadow"></div>
+                </div>
+                <div class="submit-container">
+                    <input type="submit" class="submit-btn" />
+                    <div class="submit-btn-shadow"></div>
+                </div>
+            </div>
+            <!-- <div class="form-container">
                     <form>
                         <input type="text"  id="email-field" placeholder="Your email address">
                         <button type="submit" id="sub-button">Subscribe</button>
                     </form>
-                    </div>
+                    </div> -->
         </div>
     </div>
 

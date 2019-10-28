@@ -74,9 +74,12 @@ h2{
 }
 
 #orange{
-    color: var(--orange-2)
+    color: var(--orange-2);
 }
 
+#gray{
+    color: var(--off-white);
+}
 
 
 h3{
@@ -533,5 +536,207 @@ footer{
     display: flex;
     justify-content: space-between; 
 }
+
+
+
+
+.input {
+	position: relative;
+	display: flex;
+	width: 600px;
+   margin: 0 10px;
+
+}
+.input-container {
+		position: relative;
+		display: flex;
+		width: 100%;
+      margin: 10px;
+}
+		.input-field {
+			padding: 24px;
+			background-color: rgb(255, 255, 255);
+            border: solid #f8f8f8;
+            border-width: 1.5px;
+			width: 100%;
+			color: #b7bcdd;
+			outline: none;
+			z-index: 0;
+         -webkit-tap-highlight-color: transparent;
+            line-height: 1;
+        }
+
+			.input-field::-webkit-input-placeholder {
+				color: #b7bcdd;
+				line-height: 1;
+				padding-top: 2px;
+			}
+
+            .input-field:hover + .input-field-shadow {
+                box-shadow: 0px 2px 10px #d8ddec;
+            }
+
+            .input-field:focus + .input-field-shadow {
+                box-shadow: 0px 8px 14px #d8ddec;
+                height: 50%;
+                width: 97%;
+                left: 2%;
+            }
+		
+
+		.input-field-shadow {
+			position: absolute;
+			display: flex;
+			width: 99%;
+			height: 95%;
+			bottom: 0;
+			left: 1%;
+			z-index: -10;
+			box-shadow: 0px 0px 5px #d8ddec;
+			border-radius: 2px;
+         transition: all ease 240ms;
+		}
+	
+
+	.submit-container {
+		position: absolute;
+		z-index: 0;
+		margin: 10px;
+		right: -10px;
+		top: calc(25% - 11px);
+		opacity: 0;
+		transition: all ease 240ms;
+    }
+		.submit-btn {
+			border: none;
+			border-radius: 2px;
+			/* background-color: lighten(rgba(125, 141, 243, 1), 5%); */
+			padding: 12px 20px;
+			color: white;
+			text-transform: uppercase;
+			-webkit-appearance: none;
+			transition: all ease 240ms;
+			cursor: pointer;
+            background-color: var(--blue-2);
+        }
+
+        .submit-btn:hover{
+            background-color: var(--blue-3);
+        }
+		
+
+		.submit-btn-shadow {
+			position: absolute;
+			display: flex;
+			width: 90%;
+			height: 50%;
+			bottom: 0;
+			left: 5%;
+			z-index: -5;
+			box-shadow: 0px 2px 10px #a3aadb;
+			border-radius: 2px;
+        }
+        
+
+
+        /* Contact Modal */
+
+        .contact-form{
+            background-color: var(--blue-2);
+            width: 60%;
+            height: auto;
+            border-radius: 10px;;
+            box-shadow: 5px 5px 30px rgba(21, 53, 77, 0.3);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            position: absolute;
+            z-index: 3;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            display: none;
+        }
+        
+        #close-icon{
+            width: 2vw;
+            height: 2vw;
+        }
+
+        #contact-close{
+            background-color: red;
+            width: 2vw;
+            height: 2vw;
+            border-radius: .2vw;
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin-top: 1vw;
+            margin-right: 1vw;
+        }
+        .contact-form h1{
+            padding-top: 5%;
+        }
+
+        .contact-form h2{
+            text-align: center;
+            margin-bottom: 4%;
+        }
+        
+        form{
+            width: 60%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding-bottom: 5%;
+        }
+        
+        form input{
+            box-shadow: 5px 5px 30px rgba(21, 53, 77, 0.568);
+        }
+        .name, .org{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #half{
+            width: 45%;
+            border-radius: 5px;
+            padding: 2%;
+            margin-bottom: 5%;
+        }
+        
+        #full{
+            width: 95%;
+            border-radius: 5px;
+            padding: 2%;
+            margin-bottom: 5%;
+        }
+        
+        #large{
+            width: 95%;
+            height: 100%;
+            padding: 2%;
+            border-radius: 5px;
+            padding-bottom: 30%;
+            margin-bottom: 5%;
+        }
+        
+        .btn{
+            align-self: flex-end;
+            color: var(--off-white);
+            font-family: europa-bold;
+            font-size: 1.5em;
+            letter-spacing: 1px;
+            background-color: var(--orange-1);
+            padding: 1% 6%;
+            border-radius: 10px;
+            box-shadow: 5px 5px 30px rgba(35, 67, 116, 0.466); 
+        }
+	
+
 
 
