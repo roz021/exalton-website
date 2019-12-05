@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exalton</title>
+    <link href="css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="/js/index.js"></script>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+
+    <div class="page-mask"></div>
+    <div class="bg-nav">
+        <nav>
+            <a id="link" href="html/about.html">About</a>
+            <a id="link" href="html/product.html">Product</a>
+            <a href="#">
+                <img class="nav-icon" src="images/logo.svg" alt="logo">
+            </a>
+            <a id="link" href="html/pricing.html">Pricing</a>
+            <a id="link" class="cont-modal" href="#">Contact</a>
+        </nav>
+    </div>
+
+    <!-- tablet/mobile nav -->
+    <div class="burger-wrapper">
+        <div id="nav-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <nav id="menu">
+            <div class="menu-wrap">
+                <a href="index.html" class="menu-link" id="home">Home</a>
+                <a href="html/about.html" class="menu-link" id="about">About</a>
+                <a href="html/product.html" class="menu-link" id="product">Product</a>
+                <a href="html/pricing.html" class="menu-link" id="pricing">Pricing</a>
+                <a href="#" id="link" class="cont-modal menu-link">Contact</a>
+            </div>
+        </nav>
+
+    <!-- Contact Modal -->
+    <div class="contact-form">
+        <button type="button" id="contact-close">
+            <img src="/images/close.svg" id="close-icon">
+        </button>
+        <h1 class="cont-header" id="white">Want to learn more?</h1>
+        <h2 id="gray">We'd love to answer any questions you have.</h2>
+
+        <form method="post" action="contact.php" id="contact">
+            <div class="name">
+                <input type="text" name="sender" id="half" class="gap" placeholder="First Name">
+                <input type="text" id="half" placeholder="Last Name">
+            </div>
+            <div class="org">
+                <input type="text" id="half" class="gap" placeholder="Organization">
+                <input type="text" id="half" placeholder="Industry">
+            </div>
+            <input type="text" name="senderEmail" id="full" placeholder="Email Address">
+            <input type="text" name="message" id="large" placeholder="How may we help?">
+            <input class="btn" type="submit" value="Send">
+        </form>
+    </div>
+
+    <!-- Hero -->
+    <div class="bg-1">
+        <div class="content-wrapper">
+            <div class="landing-hero">
+                <div id="in-dev">
+                    <p class="top-border"><span class="border-this">Currently in proof-of-concept: In Development -
+                            Expected Sept 2019</span></p>
+                </div>
+
+                <div class="hero-cont-wrapper">
+                    <div id="hero-left">
+                        <div id="hero-header">
+                            <h1>Innovation Through <br>Collaboration</h1>
+                        </div>
+                        <div id="hero-subtext">
+                            <h3>Exalton is a file management platform that is leveraging emerging technologies to bring
+                                in a
+                                new wave of collaboration.</h3>
+
+
+                        </div>
+
+                        <div id="hero-button">
+                            <h5 class="btn-head">Stay updated on our development!</h5>
+                            <form action="#" method="post" class="hero-subscribe">
+
+                                <input type="text" name="something" class="hero-input" /><button
+                                    class="h-input-btn">Subscribe</button>
+                                <div class="field-border"></div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="hero-right">
+                        <div id="hero-image">
+                            <img id="hero-buildings" src="images/home-hero-small.svg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="scroll-downs">
+                    <div class="mousey">
+                        <div class="scroller"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="what-is-exalton">
+        <div class="what-top-section">
+            <h2 class="headers">You're in control now. Real control.</h2>
+            <h3 class="dark-text body-content">We get it, you’re working with sensitive files and you don’t want them
+                getting in the wrong hands. Maybe your current file management platform is confusing or frustrating to
+                work with — we get that too.
+                <br><br>
+                That’s why we built exalton, so you can focus on building the next big thing with whomever, wherever.
+            </h3>
+            <div class="button-wrapper">
+                <button class="orange-b learn-more-btn">Learn More</button>
+                <div class="button-border"></div>
+            </div>
+        </div>
+
+        <div class="what-bot-section">
+            <div class="pillar secure">
+                <img id="pillar-icon" src="/images/security.svg">
+                <h4 class="subheader-l dark-text">Security</h4>
+                <h3 class="dark-text pillar-content">By leveraging state-of-the-art/best in class) asset encryption, traceability, and
+                    identity management, your files are secured wherever they are.</h3>
+            </div>
+            <div class="pillar collab">
+                <img id="pillar-icon" src="/images/collab.svg">
+                <h4 class="subheader-l dark-text">Collaboration</h4>
+                <h3 class="dark-text pillar-content">Our platform’s design let’s you build your collaboration environment with as
+                    little effort as possible. </h3>
+            </div>
+            <div class="pillar eff">
+                <img id="pillar-icon" src="/images/eff.svg">
+                <h4 class="subheader-l dark-text">Efficiency</h4>
+                <h3 class="dark-text pillar-content">And for the first time on any file management platform, high-powered, distributed
+                    automated workflows enabled by smart contracts.</h3>
+            </div>
+        </div>
+    </div>
+ 
+
+    <div class="problem">
+        <div class="problem-wrapper">
+            <h2 id="white">But why should you care?</h2>
+            <div class="bar2"></div>
+            <h3 class="problem-content" id="white">Across all industries, billions of dollars are lost globally
+                to the piracy of intellectual property and corporate espionage.
+                Without a proper way to securely and easily manage critical
+                files, distributed collaboration bottlenecks with trust.<br><br>
+                It's about time there was a file manager that gave you
+                absolute confidence in your file management.</h3>
+        </div>
+        <div class="problem-mock">
+            <img id="laptop-mock" src="images/home-laptop.svg">
+        </div>
+    </div>
+
+    <div class="use-case-container">
+        <div class="use-case-header-section">
+            <img src="/images/knife.svg" id="use-case-knife">
+            <h2 class="dark-text">We believe in versatility.</h2>
+            <h3 class="use-case-content dark-text">Exalton is built to help users across various industries because
+                we know that files need to be secure no matter who you are.
+            </h3>
+        </div>
+
+        <div class="use-case-cards-section">
+
+            <div class="cards" id="life-sci">
+                <h5 id="card-header">Life Science</h5>
+                <img src="images/life-icon.svg" id="life-icon" class="card-icon">
+                <img src="images/arrow.svg" id="white" class="hover-arrow">
+                <div class="card-overlay" id="life-overlay">
+                    <h5 id="card-content">Work together on exploring new drug targets and therapeutics with scientists
+                        from around the world without a worry.
+                        Whether you're a small biotech, an academic lab or a scientist with a brilliant idea, you don't
+                        have to be scared anymore to collaborate with the right people.
+                        With the highest level of encryption used for research files, you can be sure that your data is
+                        in safe hands.
+                    </h5>
+                </div>
+            </div>
+
+            <div class="cards" id="health">
+                <h5 id="card-header">Healthcare</h5>
+                <img src="images/health-icon.svg" id="health-icon" class="card-icon">
+                <img src="images/arrow.svg" id="white" class="hover-arrow">
+                <div class="card-overlay" id="health-overlay">
+                    <h5 id="card-content">
+                            Ensure that your patient data is secured and always falls in the right hands, increasing your 
+                            reliability and gaining the trust of your valued communities.
+                            Work freely with other healthcare organizations in generating large cross-organization data sets or governing institutions.
+                            HIPAA compliance along with our state of the art encryption ensures that your patient data is never out of your control.
+                            Smart contracts can be used to transfer IP, patient data and funds if the right input is received, while generating legally
+                            binding nomenclature as well. 
+                    </h5>
+                </div>
+            </div>
+
+            <div class="cards" id="education">
+                <h5 id="card-header">Education/R&D</h5>
+                <img src="images/edu-icon.svg" id="edu-icon" class="card-icon">
+                <img src="images/arrow.svg" id="white" class="hover-arrow">
+                <div class="card-overlay" id="edu-overlay">
+                    <h5 id="card-content">
+                            Academic institutions and corporate R&D lie at the heart of each wave of technological evolution. Unfortunately, only 18% of
+                            academic researchers are actively collaborating with one another because there lacks the proper technology to facilitate trust.
+                            Like never before, collaborate with your internal and external teammates with authentication and work attribution to ensure that 
+                            your collective work is more focused on your research than politics.
+                    </h5>
+                </div>
+            </div>
+
+            <div class="cards" id="legal">
+                <h5 id="card-header">Legal</h5>
+                <img src="images/legal-icon.svg" id="legal-icon" class="card-icon">
+                <img src="images/arrow.svg" id="white" class="hover-arrow">
+                <div class="card-overlay" id="legal-overlay">
+                    <h5 id="card-content">
+                            Collaborating with your clients in all industries and forms can be complex, and thus be time consuming and expensive. By leveraging 
+                            Exalton's distributed workspace, you can easily link workflows and digital asset management with absolute transparency and confidence.
+                            Streamline establishing NDA contractual agreements between organizations where the terms are immediately translated into executable 
+                            permissions that define which assets each organization has access to, can distribute, and to develop.
+                    </h5>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="connect">
+
+        <div class="left-connect">
+        <img id="big-logo" src="images/logo.png">
+        </div>
+
+        <div class="right-connect">
+        <h2 id="blue">Do better work, together.</h2>
+        <h3 class="dark-text">Stay up to date with what we've been up to.</h3>
+
+        <div id="conn-button">
+                <form action="#" method="post" class="conn-subscribe connect-input">
+
+                    <input type="text" name="something" class="conn-input" /><button
+                        class="c-input-btn">Subscribe</button>
+                    <div class="connect-border"></div>
+                </form>
+            </div>
+
+        </div>
+        <!-- <div class="form-container">
+                    <form>
+                        <input type="text"  id="email-field" placeholder="Your email address">
+                        <button type="submit" id="sub-button">Subscribe</button>
+                    </form>
+                    </div> -->
+    </div>
+
+
+    <footer>
+        <div class="foot-wrapper">
+            <div class="logo">
+                <img class="foot-icon" src="images/logo.svg" alt="logo">
+                <h3>exalton</h3>
+            </div>
+            <div class="contact-us">
+                <h2>Have any questions? Get in touch with us!</h2>
+                <button type="button" id="cont-button">Contact Us</button>
+            </div>
+            <div class="footer-links">
+                <a id="link" href="html/about.html">About</a>
+                <a id="link" href="html/product.html">Product</a>
+                <a id="link" href="html/pricing.html">Pricing</a>
+                <a id="link" href="html/contact.html">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

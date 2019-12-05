@@ -57,7 +57,7 @@ p{
 h2{
     font-family: europa-reg, sans-serif;
     /* color: var(--off-white); */
-    font-size: 2vw;
+    font-size: 45px;
     letter-spacing: 2px;
 }
 
@@ -86,9 +86,9 @@ h2{
 h3{
     font-family: europa-light, sans-serif;
     color: var(--off-white);
-    font-size: 1vw;
+    font-size: 20px;
     letter-spacing: 1px;
-    line-height: 150%;
+    line-height: 1.5em;
 }
 
 #sub-button{
@@ -112,7 +112,7 @@ h4{
 }
 
 h1{
-    font-size: 3.5vw;
+    font-size: 60px;
     text-align: center;
 }
 
@@ -143,7 +143,7 @@ nav{
 }
 
 
-nav a:link{
+.bg-nav a{
     text-decoration: none;
     color: var(--off-black);
     font-size: 1.3vw;
@@ -307,7 +307,14 @@ footer h2{
     grid-row-start: 2;
     grid-row-end: 3;
     margin-top: -15%;
+    
 }
+
+.about-head{
+    white-space: normal;
+    width: 500px;
+}
+
 
 .hero-image{
     width: 25%;
@@ -317,16 +324,16 @@ footer h2{
 }
 
 #skew-mock{
-    width: 50vw;
+    width: 600px;
     height: auto;
     z-index: -1;
     position: absolute;
-    left: 35%;
-    top: 10%;
+    left: 45%;
+    top: 15%;
 }
 
 #crane{
-    width: 25vw;
+    width: 350px;
     z-index: 1;
     position: absolute;
     right: -1%;
@@ -359,11 +366,12 @@ footer h2{
     display: flex;
     justify-content: space-between;
     margin-top: 10%;
+    width: 80%;
 }
 
 .vert-bar{
     width: .3vw;
-    height: 5vw;
+    height: 10vw;
     background: linear-gradient(to bottom, #3783DC, var(--blue-3));
     margin-right: 5%;
 }
@@ -506,3 +514,245 @@ footer{
 }
 
 
+.nav-icon{
+    width: 60px;
+    height: auto;
+    /* display: inline; */
+}
+
+
+@media only screen and (max-width:1450px) and (min-width: 1025px){
+
+    /* above the fold */
+    
+    h1, .footer-links {
+        font-family: europa-bold, sans-serif;
+        color: var(--off-black);
+        font-size: 50px;
+    }
+    
+    
+    h3{
+        font-family: europa-reg, sans-serif;
+        color: var(--off-white);
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 1.5em;
+    }
+
+    #crane{
+        width: 250px;
+    }
+
+    #skew-mock{
+        width: 500px;
+        left: 52%;
+    }
+}    
+
+
+@media only screen and (max-width:1024px){
+   
+    /* above the fold */
+    
+    h1, .footer-links {
+        font-family: europa-bold, sans-serif;
+        /* color: var(--off-white); */
+        font-size: 40px;
+    }
+    
+    
+    h3{
+        font-family: europa-reg, sans-serif;
+        color: var(--off-white);
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.5em;
+    }
+
+    .messageBody{
+        grid-column-start: 3;
+    }
+
+    .f{
+        grid-row-start: 7;
+        grid-row-end: 7;
+    }
+
+    .h{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        margin-top: 25%;
+    }
+    #crane{
+        left: 52%;
+        top: 75%;
+        width: 200px;
+    }
+
+    #skew-mock{
+        width: 375px;
+        left: 18%;
+        top: 80%;
+    }
+
+
+footer h3{
+    font-size: 20px;
+}
+
+footer h2{
+    font-size: 25px;
+}
+
+#cont-button{
+    font-size: 20px;
+    padding: .5em 1.8em;
+    border-radius: 0;
+}
+
+footer a:link{
+    font-size: 20px;
+}
+
+.mission-section{
+    padding-top: 35%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission-left{
+    text-align: center;
+}
+
+.mission-right{
+    width: 100%;
+}
+
+.mission-left h2, .team-wrapper h2, .advisor-wrapper h2{
+    font-size: 35px;
+    font-family: europa-bold, sans-serif;
+}
+#steps{
+    display: none;
+}
+
+.vert-bar{
+    height: 35vw;
+}
+
+#name{
+    font-size: 20px;
+}
+
+#gray{
+    font-size: 18px;
+}
+
+.advisor-names h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+}
+
+@media only screen and (max-width:680px){
+
+    #nav-icon3{
+        margin-left: 85%;
+    }
+
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 16px;
+        white-space: normal;
+    }
+
+    .oc, .bc{
+        display: none;
+    }
+
+    .hero{
+        display: flex;
+        margin-bottom: 15vw;
+    }
+
+    #header{
+        margin-bottom: 5%;
+    }
+
+    .messageBody{
+        margin-top: 10%;
+        width: 100%;
+    }
+
+
+    #crane{
+        margin-top: 15%;
+        width: 150px;
+    }
+
+    #skew-mock{
+        margin-top: 20%;
+        left: 10%;
+        width: 250px;
+    }
+
+    .about-head{
+        width: 300px;
+    }
+    footer h3{
+        font-size: 16px;
+    }
+
+    footer h2{
+        font-size: 18px;
+    }
+
+    #cont-button{
+        font-size: 16px;
+        padding: 1em 1.5em;
+        border-radius: 0;
+    }
+
+    .footer-links{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .footer-links a{
+        margin-bottom: 20px;
+    }
+
+    .minions{
+        flex-direction: column;
+    }
+
+    .not-minions{
+        flex-direction: column;
+    }
+
+    .minions img, .not-minions img{
+        width: 100%;
+    }
+
+    .advisor-names{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-top: 5%;
+    }
+
+    .circle{
+        margin-top: 2.5%;
+        margin-bottom: 5%;
+    }
+}

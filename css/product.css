@@ -44,6 +44,7 @@ html, body{
 h1, .footer-links {
     font-family: europa-bold, sans-serif;
     color: var(--off-white);
+    width: 70%;
 }
 
 p{
@@ -57,7 +58,7 @@ p{
 h2{
     font-family: europa-reg, sans-serif;
     /* color: var(--off-white); */
-    font-size: 2vw;
+    font-size: 45px;
     letter-spacing: 2px;
     padding: 5% 0;
 }
@@ -87,7 +88,7 @@ h2{
 h3{
     font-family: europa-light, sans-serif;
     color: var(--off-white);
-    font-size: 1vw;
+    font-size: 20px;
     letter-spacing: 1px;
     line-height: 150%;
 }
@@ -113,7 +114,7 @@ h4{
 }
 
 h1{
-    font-size: 3.5vw;
+    font-size: 60px;
     text-align: center;
 }
 
@@ -148,11 +149,12 @@ nav{
 }
 
 
-nav a:link, footer a:link{
+.bg-nav a:link, footer a:link{
     text-decoration: none;
     color: var(--off-white);
-    font-size: 1.3vw;
+    font-size: 20px;
     letter-spacing: .1em;
+    transition: 0.3s;
 }
 
 footer h3{
@@ -210,24 +212,15 @@ footer h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to top, #FFD180, var(--orange-1));
 }
 
-.hero:before{
-    content:'';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to top, #FFD180, var(--orange-1));
-    border-radius: 0 0 50% 50%/0 0 100% 100%;
-    transform: scaleX(1.5);
-    z-index: -1;
-}
+
 
 .hero-wrapper{
-    margin-top: 20%;
+    margin-top: 200px;
     display: flex;
+    width: 80%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -248,46 +241,74 @@ footer h2{
 }
 
 #head-mock{
-    width: 100%;
+    width: 800px;
     height: auto;
     margin-left: -5%;
 }
 
 
-.form-container #email-field{
-    grid-column-start: 1;
-    grid-column-end: 5;
-    padding: .8vw 0 .8vw .8vw;
-    display: block;
-    margin: 0 auto;
-    box-sizing: border-box;
-    width: 80%;
-    border-radius: 8px;
-    box-shadow: 5px 5px 30px rgba(21, 53, 77, 0.3);
-    border: none;
+
+/* BUTTON CSS */
+
+#hero-button{
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
 }
 
-.form-container #sub-button{
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    background-color: var(--blue-1);
-    font-size: 1vw;
-    width: 9.2vw;
-    height: auto;
-    text-transform: uppercase;
-    margin-top: -2.5vw;
-    margin-left: -25px;
-    border-radius: 5px;
-    line-height: 2.2vw;
-    box-shadow: 5px 5px 30px rgba(218, 152, 29, 0.6)
+.btn-head{
+    color: rgba(255, 255, 255, .55);
+    margin-bottom: .5vw;
 }
+
+.hero-subscribe{
+    width: 500px;
+}
+
+.field-border{
+    width: 545px;
+    height: 55%;
+    border: .05vw solid var(--off-white);
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    z-index: 1;
+}
+
+.hero-input{
+    position: relative;
+    width: 70%;
+    padding: .3em 1em;
+    z-index: 8;
+    font-family: europa-reg, sans-serif;
+    font-size: 20px;
+}
+
+.h-input-btn{
+    position: relative;
+    width: 30%;
+    padding: .3em 0;
+    background-color: var(--orange-2);
+    z-index: 2;
+    font-family: europa-bold, sans-serif;
+    font-size: 20px;
+    color: var(--off-white);
+}
+
+/* END BUTTON CSS */
 
 .content-wrapper{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.workspace-left, .access-right, .onoff-left, .auto-right, .modular-left{
+    width: 50%;
+}
+
+.endorse-right, .audit-left{
+    width: 80%;
 }
 
 .workspace{
@@ -296,7 +317,7 @@ footer h2{
     display: flex;
     justify-content: space-between;
     margin-top: 25%;
-    white-space: nowrap;
+    white-space: wrap;
 }
 
 .workspace-left{
@@ -314,7 +335,7 @@ footer h2{
     display: flex;
     justify-content: space-between;
     margin-top: 10%;
-    white-space: nowrap; 
+    white-space: wrap; 
     text-align: right;
     
 }
@@ -333,7 +354,7 @@ footer h2{
     display: flex;
     justify-content: space-between;
     margin-top: 10%;
-    white-space: nowrap; 
+    white-space: wrap; 
     padding-bottom: 10%;
 }
 
@@ -358,7 +379,7 @@ footer h2{
     justify-content: space-between;
     align-items: center;
     margin-top: 5%;
-    white-space: nowrap;
+    white-space: wrap;
 }
 
 #share-graphic{
@@ -387,7 +408,7 @@ footer h2{
     display: flex;
     justify-content: space-between;
     margin-top: 10%;
-    white-space: nowrap; 
+    white-space: wrap; 
     text-align: right;
 }
 
@@ -410,7 +431,7 @@ footer h2{
     display: flex;
     justify-content: space-between;
     margin-top: 10%;
-    white-space: nowrap; 
+    white-space: wrap; 
     padding-bottom: 10%;
 }
 
@@ -438,7 +459,7 @@ footer h2{
     display: flex;
     justify-content: space-between;
     margin-top: 10%;
-    white-space: nowrap; 
+    white-space: wrap; 
     text-align: right; 
 }
 
@@ -458,7 +479,7 @@ footer h2{
     display: flex;
     justify-content: space-between;
     margin-top: 10%;
-    white-space: nowrap; 
+    white-space: wrap; 
     padding-bottom: 10%; 
     padding-top: 10%;
 }
@@ -602,3 +623,136 @@ footer{
     justify-content: space-between; 
 }
 
+
+
+@media only screen and (max-width:1024px){
+   
+    /* above the fold */
+    
+    h1, .footer-links {
+        font-family: europa-bold, sans-serif;
+        color: var(--off-white);
+        font-size: 40px;
+        width: 100%;
+    }
+    
+    
+    h3{
+        font-family: europa-reg, sans-serif;
+        color: var(--off-white);
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.5em;
+    }
+    
+    h2{
+        font-size: 35px;
+    }
+
+    .hero-wrapper{
+        margin-top: 50px;
+    }
+
+    #head-mock{
+        width: 500px;
+    }
+
+    .workspace-left, .access-right, .onoff-left, .auto-right, .modular-left{
+        width: 100%;
+    }
+    
+    .endorse-right, .audit-left{
+        width: 100%;
+    }
+
+    
+    .workspace, .onoff, .audit, .modular{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .access, .endorse, .auto{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #endorse-graphic, #audit-graphic{
+        position: static;
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .bar-dark, .bar-light, .o-bar-dark, .o-bar-light{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer h3{
+        font-size: 20px;
+    }
+    
+    footer h2{
+        font-size: 25px;
+    }
+    
+    #cont-button{
+        font-size: 20px;
+        padding: .5em 1.8em;
+        border-radius: 0;
+    }
+}
+
+
+@media only screen and (max-width:680px) and (min-width: 0px){
+
+    h1{
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    #head-mock{
+        width: 250px;
+    }
+
+    .share{
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .logo{
+        margin-top: 5%;
+    }
+
+    footer h3{
+        font-size: 16px;
+    }
+
+    footer h2{
+        font-size: 18px;
+    }
+
+    #cont-button{
+        font-size: 16px;
+        padding: 1em 1.5em;
+        border-radius: 0;
+    }
+
+    .footer-links{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .footer-links a{
+        margin-bottom: 20px;
+    }
+}
+}

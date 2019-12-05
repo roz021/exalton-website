@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>exalton</title>
     <link href="../css/about.css" rel="stylesheet">
+    <link href="../css/contact-modal.css" rel="stylesheet">
+    <link href="../css/hamburger.css" rel="stylesheet">
+    <script defer src="/js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="shortcut icon" type="image/png" href="../images/favicon.png">
 </head>
 
@@ -18,10 +22,53 @@
                     <img class="nav-icon" src="../images/logo.svg" alt="logo">
                     </a>
                     <a id="link" href="pricing.html">Pricing</a>
-                    <a id="link" href="contact.html">Contact</a>
+                    <a id="link" href="#" class="cont-modal">Contact</a>
                 </nav>
             </div>
 
+
+    <!-- tablet/mobile nav -->
+    <div class="burger-wrapper">
+        <div id="nav-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <nav id="menu">
+            <div class="menu-wrap">
+                <a href="/index.html" class="menu-link" id="home">Home</a>
+                <a href="/html/about.html" class="menu-link" id="about">About</a>
+                <a href="/html/product.html" class="menu-link" id="product">Product</a>
+                <a href="/html/pricing.html" class="menu-link" id="pricing">Pricing</a>
+                <a href="#" id="link" class="cont-modal menu-link">Contact</a>
+            </div>
+        </nav>
+
+    <!-- Contact Modal -->
+    <div class="contact-form">
+        <button type="button" id="contact-close">
+            <img src="/images/close.svg" id="close-icon">
+        </button>
+        <h1 class="cont-header" id="white">Want to learn more?</h1>
+        <h2 id="gray">We'd love to answer any questions you have.</h2>
+
+        <form method="post" action="contact.php" id="contact">
+            <div class="name">
+                <input type="text" name="sender" id="half" class="gap" placeholder="First Name">
+                <input type="text" id="half" placeholder="Last Name">
+            </div>
+            <div class="org">
+                <input type="text" id="half" class="gap" placeholder="Organization">
+                <input type="text" id="half" placeholder="Industry">
+            </div>
+            <input type="text" name="senderEmail" id="full" placeholder="Email Address">
+            <input type="text" name="message" id="large" placeholder="How may we help?">
+            <input class="btn" type="submit" value="Send">
+        </form>
+    </div>
 
     <div class="content-wrapper">
     <div class="hero">
@@ -38,9 +85,9 @@
                     <img class="bc k" src="../images/b-circle.svg">
                 
         <div class="messageBody">
-            <h1 id="header">Your Best Work.<br>Done <font color="#3783DC">Together.</font>
+            <h1 class="about-head" id="header">Your Best Work. Done <font color="#3783DC">Together.</font>
             </h1>
-            <h3 id="black">Here at exalton our mission is to leverage emerging <br>
+            <h3 id="black">Here at Exalton our mission is to leverage emerging <br>
                 technologies to help innovators become collaborators <br>
                 and do their best work.</h3>
         </div>
@@ -53,19 +100,19 @@
 
     <div class="mission-section">
         <div class="mission-left">
-            <h2 id="blue">Achieving your dream<br>is our's.</h2>
+            <h2 id="blue">Achieving your dream is ours.</h2>
             <img id="steps" src="../images/about-mission.svg">
         </div>
         <div class="mission-right">
             <div class="vert-bar"></div>
-            <h3 id="black">We know that making something new and truly special is hard enough on<br>
-                it's own without having to worry about attackers, mismanagement, and <br>
+            <h3 id="black">We know that making something new and truly special is hard enough on
+                it's own without having to worry about attackers, mismanagement, and 
                 frustrating experiences.<br><br>
-                We are committed to delivering the highest quality security, usability, and <br>
+                We are committed to delivering the highest quality security, usability, and
                 integrated services to provide the complete file management experience. <br><br>
-                Just like you and your teams, we will continue to collaborate deeply, <br>
-                innovate relentlessly, and adapt rapidly so we can keep our promises to you. <br>
-                At the end of the day, our success is only defined by your success. <br><br>
+                Just like you and your teams, we will continue to collaborate deeply, 
+                innovate relentlessly, and adapt rapidly so we can keep our promises to you.
+                At the end of the day, our success is defined by your success. <br><br>
                 So, what do you say? Let's start building a better world together.</h3>
         </div>
     </div>
@@ -122,18 +169,18 @@
         <div class="bar-dark"></div>
         <div class="advisor-names">
             <div class="jim">
-                <h4 id="black" class="name">Jim Short</h4>
+                <h4 id="black" class="ad-name">Jim Short</h4>
                 <h4 id="gray">MIT Economics PhD <br> BlockLAB Founder</h4>
                 <div class="circle"></div>
             </div>
             <div class="matt">
-                <h4 id="black" class="name">Matthew Hedayat</h4>
+                <h4 id="black" class="ad-name">Matthew Hedayat</h4>
                 <h4 id="gray">PhD Mechanical Engineering<br>Dimensional Touch CEO</h4>
                 <div class="circle"></div>
 
             </div>
             <div class="geoff">
-                <h4 id="black" class="name">Geoff Odell</h4>
+                <h4 id="black" class="ad-name">Geoff Odell</h4>
                 <h4 id="gray">Ex-Novartis IT VP<br>Trusted-HIT CEO</h4>
                 <div class="circle"></div>
 
